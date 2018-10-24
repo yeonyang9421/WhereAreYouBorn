@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="top|center_vertical|center_horizontal"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where were you born?"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/seoul"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:background="@drawable/seoul"
+        android:onClick="onClickSelectCity"
+        android:text="Seoul"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/beijing"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:background="@drawable/beijing"
+        android:onClick="onClickSelectCity"
+        android:text="Beijing"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/paris"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:background="@drawable/paris"
+        android:onClick="onClickSelectCity"
+        android:text="Paris"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/vencouver"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:background="@drawable/vencouver"
+        android:onClick="onClickSelectCity"
+        android:text="Vencouver"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/cebu"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:background="@drawable/cebu"
+        android:focusableInTouchMode="?android:attr/windowSwipeToDismiss"
+        android:onClick="onClickSelectCity"
+        android:text="Cebu"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/guam"
+        android:layout_width="232dp"
+        android:layout_height="72dp"
+        android:background="@drawable/guam"
+        android:onClick="onClickSelectCity"
+        android:text="Guam"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU WERE BORN......"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onIsChecked"/>
+
+</LinearLayout>
